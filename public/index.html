@@ -1,0 +1,69 @@
+<html>
+
+<head lang="en">
+    <meta charset="utf-8">
+
+    <!-- This is for bootstrap, to make the site look good on mobile -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Scripts for AngularJS should be at the top -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.0/angular.min.js"></script>
+    <script src="javascripts/angularControllers.js"></script>
+
+    <title>Corban Anderson CS260 Activity 8 Angular Routing Service</title>
+
+    <!-- Bring in Stylesheets -->
+    <!-- Linking in Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <!-- Super Cool Fonts! -->
+    <link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
+
+    <!-- Our stylesheet -->
+    <link rel="stylesheet" href="stylesheets/style.css">
+
+    <!-- Our Code (that doesn't need to be there right when the page is loading-->
+    <script src="javascripts/code.js"></script>
+</head>
+
+<body>
+    <div ng-app="myApp" ng-controller="myController">
+
+        <h1 class="hideText">So You're a Criminal Now Huh?</h1>
+        <h1 class="hideText">Well,</h1>
+        <h1 id="topMainText">That means it's time to change your identity<span id="blinkingCurser">&#9646</span></h1>
+
+        <button class="hideText" id="getRandInfoButton" onclick="getRandInfo()">I'm ready</button>
+
+        <h2 id="name"></h2>
+
+        <h2 id="username"></h2>
+
+        <h2 id="email"></h2>
+        
+        <h2 id="website"></h2>
+        <br>
+        <div id="address"></div>
+
+        <div id="company"></div>
+
+        <h1 hidden id="countdownDescription">This message will self-destruct in <span id="timer">30</span></h1>
+    
+    </div>
+    <!-- Bring in the scripts -->
+    <!-- Bringing in JQuery code -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- Bootstrap Javascript code -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    
+    <script>
+        setInterval(function(){
+            $("#blinkingCurser").toggle();
+        }, 700);
+    </script>
+    
+</body>
+
+</html>

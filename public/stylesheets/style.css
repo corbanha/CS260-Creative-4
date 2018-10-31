@@ -1,0 +1,55 @@
+html {
+  background-color: grey;
+  background-image: url("../images/dark_grey_tiles_background.jpg");
+}
+
+body {
+  padding: 50px;
+  margin: 4em;
+  font: 14px 'VT323', monospace;
+  border-radius: 30px;
+}
+
+a {
+  color: #00B7FF;
+}
+
+button:hover {
+  background-color: black;
+  border: 1px;
+  border-color: black;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 26px;
+}
+
+button {
+  background-color: white;
+  
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  border: 1px;
+  border-color: black;
+  display: inline-block;
+  font-size: 26px;
+}
+
+button:active {
+  background-color: red;
+  border: 1px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 26px;
+}
+
+#countdownDescription {
+  color: red;
+}
