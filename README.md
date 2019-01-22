@@ -1,0 +1,3 @@
+# So You're A Criminal Now?
+
+This project exemplifies using Node.js for a custom built RESTful server side that can connect to the client side interface for the user. The Node server connects to an external API to obtain information that is shown to the user. In this case it is a "criminal" website that shows your new identity, because of your new life of crime you can no longer use your previous identity. Memorize the info quickly as for added "security" we've had to go to some extra precautions....
